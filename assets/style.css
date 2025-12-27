@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Pacifico&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-light: #ffffff;
+    --bg-dark: #0e0e1a;
+}
+
+
+
+/* ===== MEDITALK GREETING TEXT ===== */
+
+.meditalk-greeting {
+    font-family: 'Pacifico', cursive;
+    font-size: 34px;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px auto 30px auto;
+    padding: 18px 28px;
+    width: fit-content;
+
+    background: linear-gradient(
+        90deg,
+        #ff0000,
+        #ff9900,
+        #ffee00,
+        #00ff99,
+        #00ccff,
+        #9933ff,
+        #ff33cc
+    );
+    background-size: 400% 400%;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: meditalkRainbow 6s linear infinite,
+               meditalkFloat 3s ease-in-out infinite;
+}
+
+/* Glow effect */
+.meditalk-greeting::after {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border-radius: 18px;
+    filter: blur(18px);
+    opacity: 0.4;
+}
+
+/* Rainbow animation */
+@keyframes meditalkRainbow {
+    0% { background-position: 0% }
+    100% { background-position: 100% }
+}
+
+/* Floating animation */
+@keyframes meditalkFloat {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
+}
+
+
+/* THEME BACKGROUND */
+[data-theme="{THEME}"] body {
+    background: var(--bg-light);
+}
+
+[data-theme="dark"] body {
+    background: var(--bg-dark);
+}
+
+/* MAIN TITLE */
+.rainbow-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 52px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 18px;
+    background: linear-gradient(
+        270deg,
+        #ff0000,
+        #ff9900,
+        #ffee00,
+        #33cc33,
+        #00ccff,
+        #6633ff,
+        #ff33cc
+    );
+    background-size: 800% 800%;
+    animation: rainbow 6s ease infinite;
+    color: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+@keyframes rainbow {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+/* SUBTITLE */
+.subtitle-box {
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 14px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background: linear-gradient(90deg, #ffd700, #ff69b4, #7fff00);
+    color: black;
+}
+
+/* INPUT LABELS */
+label {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* LIGHT THEME TEXT */
+[data-theme="light"] label {
+    color: #5a0fc8;
+}
+
+/* DARK THEME TEXT */
+[data-theme="dark"] label {
+    color: #ffd700;
+}
+
+/* BUTTONS */
+.stButton > button {
+    background: linear-gradient(135deg, #ff6ec4, #7873f5);
+    color: white;
+    font-size: 18px;
+    border-radius: 14px;
+    padding: 10px 30px;
+    border: none;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px #ff6ec4;
+}
+
+/* LOGIN / SIGNUP BOX */
+.auth-box {
+    background: #fff8c6;
+    padding: 25px;
+    border-radius: 18px;
+    animation: bounce 1.5s ease;
+}
+
+@keyframes bounce {
+    0% {transform: translateY(-30px);}
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(0);}
+}
+
+/* DARK MODE FIX */
+[data-theme="dark"] .auth-box {
+    background: #1e1e2e;
+    color: white;
+}

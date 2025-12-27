@@ -1,0 +1,405 @@
+{
+    "mehaksethi": [
+        {
+            "symptoms": [
+                "cough"
+            ],
+            "disease": "Common Cold",
+            "confidence": 17.5
+        }
+    ],
+    "mehak": [
+        {
+            "input": "i have fever.",
+            "days": 1,
+            "severity": 2,
+            "result": "\u2757 No recognizable symptoms found. Please describe more clearly."
+        },
+        {
+            "input": "i have fever.",
+            "days": 1,
+            "severity": 1,
+            "result": "\u2757 No recognizable symptoms found. Please describe more clearly."
+        },
+        {
+            "input": "fever",
+            "days": 5,
+            "severity": 2,
+            "result": "\u2757 No recognizable symptoms found. Please describe more clearly."
+        },
+        {
+            "input": "fever",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "AIDS",
+                "confidence": 19.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "hepatitis A",
+                    "Chicken pox",
+                    "Impetigo"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "fever",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "AIDS",
+                "confidence": 19.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "hepatitis A",
+                    "Chicken pox",
+                    "Impetigo"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "cold",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Dimorphic hemmorhoids(piles)",
+                "confidence": 12.0,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Urinary tract infection",
+                    "Allergy",
+                    "AIDS"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "cold",
+            "days": 1,
+            "severity": 1,
+            "result": {
+                "disease": "Dimorphic hemmorhoids(piles)",
+                "confidence": 12.0,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Urinary tract infection",
+                    "Allergy",
+                    "AIDS"
+                ],
+                "days": 1,
+                "severity": 1
+            }
+        },
+        {
+            "input": "body pain",
+            "days": 1,
+            "severity": 1,
+            "result": {
+                "disease": "Dengue",
+                "confidence": 33.5,
+                "precautions": [
+                    "Rest and stay hydrated",
+                    "Use pain relievers like acetaminophen. but consult doctor first",
+                    "Avoid mosquito bites"
+                ],
+                "others": [
+                    "Osteoarthristis",
+                    "Dimorphic hemmorhoids(piles)",
+                    "Typhoid"
+                ],
+                "days": 1,
+                "severity": 1
+            }
+        },
+        {
+            "input": "i have fever",
+            "days": 1,
+            "severity": 1,
+            "result": {
+                "disease": "Viral Fever",
+                "confidence": 34.0,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Common Cold",
+                    "Flu"
+                ],
+                "days": 1,
+                "severity": 1
+            }
+        },
+        {
+            "input": "fever",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Viral Fever",
+                "confidence": 39.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Common Cold",
+                    "Flu"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "skin rash",
+            "days": 1,
+            "severity": 5,
+            "result": {
+                "disease": "Fungal infection",
+                "confidence": 44.0,
+                "precautions": [
+                    "Keep affected area dry",
+                    "Use antifungal cream",
+                    "Avoid sharing towels"
+                ],
+                "others": [
+                    "Psoriasis",
+                    "Hepatitis C",
+                    "Alcoholic hepatitis"
+                ],
+                "days": 1,
+                "severity": 5
+            }
+        },
+        {
+            "input": "stomach pain",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Viral Fever",
+                "confidence": 44.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Common Cold",
+                    "Flu"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "sneezing",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Allergy",
+                "confidence": 56.5,
+                "precautions": [
+                    "Avoid allergens",
+                    "Take antihistamines",
+                    "Consult a doctor if severe"
+                ],
+                "others": [
+                    "Dimorphic hemmorhoids(piles)",
+                    "Heart attack",
+                    "Urinary tract infection"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "dehydration",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Gastroenteritis",
+                "confidence": 58.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Dimorphic hemmorhoids(piles)",
+                    "AIDS",
+                    "Urinary tract infection"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "obesity",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Viral Fever",
+                "confidence": 49.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Common Cold",
+                    "Flu"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "acne",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "No disease detected",
+                "confidence": 0.0,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "vomiting",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Viral Fever",
+                "confidence": 43.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Common Cold",
+                    "Flu"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "fever",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Viral Fever",
+                "confidence": 39.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Common Cold",
+                    "Flu"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        }
+    ],
+    "lakshmi": [
+        {
+            "input": "high_fever",
+            "days": 1,
+            "severity": 2,
+            "result": "\u2757 No recognizable symptoms found. Please describe more clearly."
+        },
+        {
+            "input": "high_fever",
+            "days": 1,
+            "severity": 2,
+            "result": "\u2757 No recognizable symptoms found. Please describe more clearly."
+        }
+    ],
+    "jiyanshi": [
+        {
+            "input": "fever",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Viral Fever",
+                "confidence": 39.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Common Cold",
+                    "Flu"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "cough",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Viral Fever",
+                "confidence": 38.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Common Cold",
+                    "Flu"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        }
+    ],
+    "shivi": [
+        {
+            "input": "vitamin d deficiency",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Viral Fever",
+                "confidence": 33.5,
+                "precautions": [
+                    "Consult a doctor"
+                ],
+                "others": [
+                    "Common Cold",
+                    "Flu"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        },
+        {
+            "input": "skin rash",
+            "days": 1,
+            "severity": 2,
+            "result": {
+                "disease": "Fungal infection",
+                "confidence": 44.0,
+                "precautions": [
+                    "Keep affected area dry",
+                    "Use antifungal cream",
+                    "Avoid sharing towels"
+                ],
+                "others": [
+                    "Psoriasis",
+                    "Hepatitis C",
+                    "Alcoholic hepatitis"
+                ],
+                "days": 1,
+                "severity": 2
+            }
+        }
+    ]
+}
